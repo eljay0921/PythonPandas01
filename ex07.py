@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # ---
 # jupyter:
 #   jupytext:
@@ -64,6 +65,6 @@ df5
 df6 = pd.DataFrame([2], index=['a'])
 df6
 
-pd.concat([df5, df6], verify_integrity=True)
+pd.concat([df5, df6], verify_integrity=True)    # verify_integrity 옵션 사용 시, 중복 값 등 유효성 검사를 함
 
 
